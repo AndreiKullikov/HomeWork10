@@ -12,7 +12,7 @@ Console.WriteLine("Вывод массива:");
 
 for (int i = 0; i < array.Length; i++)
 {
-    Console.Write(array[i]+" ");
+    Console.Write($"{array[i]} ");;
 }
 Console.WriteLine();
 
@@ -23,6 +23,6 @@ for (int i = 0; i < array.Length; i++)
 {
     if(3 >= array[i].Length)
     {
-       Console.Write(array[i]+" "); 
+       Console.Write($"{array[i]} ");
     }
 }
