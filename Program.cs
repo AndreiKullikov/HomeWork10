@@ -7,3 +7,10 @@ for(int i = 0; i<array.Length; i++)
     Console.Write($"Введите элемент массива под индексом {i}:\t");
     array[i]= (Console.ReadLine()!);
 }
+Console.WriteLine("Вывод массива:");
+
+
+for (int i = 0; i < array.Length; i++)
+{
+    Console.Write(array[i]+" ");
+}
