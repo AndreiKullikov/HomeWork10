@@ -14,3 +14,15 @@ for (int i = 0; i < array.Length; i++)
 {
     Console.Write(array[i]+" ");
 }
+Console.WriteLine();
+
+Console.WriteLine("Вывод нового массива:");
+
+
+for (int i = 0; i < array.Length; i++)
+{
+    if(3 >= array[i].Length)
+    {
+       Console.Write(array[i]+" "); 
+    }
+}
